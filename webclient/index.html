@@ -1,0 +1,53 @@
+<!--
+Mobile Chat (ff-mobile-chat) is a cross platform
+(Android, iOS, Windows Phone 8, web) chat supported by NodeJS websockets.
+<https://github.com/TerryWahl/ff-mobile-chat>
+
+Copyright (C) 2013-2014  Terry Wahl & Marco Jacobs
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<html>
+
+<head>
+    <title>Mobile Chat</title>
+    <link rel="stylesheet" type="text/css" href="box.css">
+</head>
+
+<body>
+    <h1>Mobile Chat</h1>
+    <div class="status">
+        <h2>Status:
+            <span class="connect-status disconnected">Disconnected</span>
+        </h2>
+    </div>
+    <form id="signInForm">
+        <input id="userName" type="text">
+        <input id="changeNameButton" name="changeName" type="button" value="Change Name">
+    </form>
+
+    <div id="chatBox"></div>
+
+    <form id="messageForm">
+        <input id="messageBox" type="text" value="">
+        <input id="sendButton" type="button" value="Send">
+    </form>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/sockjs-client/0.3.4/sockjs.min.js"></script>
+    <script src="mobile-chat.js"></script>
+</body>
+
+</html>
