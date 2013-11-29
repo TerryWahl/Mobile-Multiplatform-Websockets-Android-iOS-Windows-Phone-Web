@@ -50,8 +50,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
         //Send your message to the server.
         $('#sendButton').on('click', function () {
-            mobileChatSocket.send($('#messageBox').val());
-            document.getElementById("messageBox").value = '';
+            if ($('#userName').val() != '') {
+                if ($('#messageBox').val() != '') {
+                    mobileChatSocket.send($('#userName').val() + ': ' + $('#messageBox').val());
+                    document.getElementById("messageBox").value = '';
+                }
+            } else {
+                $('#chatBox').html($('#chatBox').html() + '</br>' + 'Please put you name in box above!');
+                var objDiv = document.getElementById('chatBox');
+                objDiv.scrollTop = objDiv.scrollHeight;
+            }
         });
 
         //Prevent enter refreshing the page, it sends the text from now on
@@ -59,6 +67,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             if (e.keyCode == 13) { // 13 is enter
                 mobileChatSocket.send($('#messageBox').val());
                 document.getElementById("messageBox").value = '';
+                return false;
+            }
+        });
+
+        //Prevent enter refreshing the page
+        $('#messageBox').keydown(function (e) {
+            if (e.keyCode == 13) { // 13 is enter
+
                 return false;
             }
         });
