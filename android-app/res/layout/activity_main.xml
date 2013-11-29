@@ -9,8 +9,51 @@
     tools:context=".MainActivity" >
 
     <TextView
+        android:id="@+id/tvConnected"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/not_connected"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvConnected"
+        android:layout_below="@+id/tvConnected"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etMessages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etMessage"
+        android:layout_alignLeft="@+id/etName"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/etName"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etMessages"
+        android:layout_alignParentBottom="true"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etMessage"
+        android:layout_alignBottom="@+id/etMessage"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/etMessage"
+        android:text="Button" />
 
 </RelativeLayout>
