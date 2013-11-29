@@ -20,47 +20,46 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #signInForm, #messageForm {
-	margin:0px;
-	margin-bottom:1px;
+    margin: 0px;
+    margin-bottom: 1px;
 }
 #userName {
-	width: 150px;
-	height: 22px;
-	border: 1px teal solid;
-	float:left;
+    width: 150px;
+    height: 22px;
+    border: 1px teal solid;
+    float: left;
 }
 #changeNameButton {
-	width: 100px;
-	height: 22px;
+    width: 100px;
+    height: 22px;
 }
 #chatBox {
-	font-family:tahoma;
-	font-size:12px;
-	color:black;
-	border: 1px teal solid;
-	height: 225px;
-	width: 400px;
-	overflow: scroll;
-	margin-left:1px;
+    font-family: tahoma;
+    font-size: 12px;
+    color: black;
+    border: 1px teal solid;
+    height: 225px;
+    width: 400px;
+    overflow: scroll;
+    margin-left: 1px;
 }
 #message {
-	width: 350px;
-	height: 22px;
-	border: 1px teal solid;
-	float:left;
-	margin-left:1px;
-	margin-top:1px;
+    width: 350px;
+    height: 22px;
+    border: 1px teal solid;
+    float: left;
+    margin-left: 1px;
+    margin-top: 1px;
 }
 #send {
-	width: 50px;
-	height: 22px;
-	float:left;
-	margin:1px;
+    width: 50px;
+    height: 22px;
+    float: left;
+    margin: 1px;
 }
 .disconnected {
-  color: red;
+    color: red;
 }
-
 .connected {
-  color: green;
+    color: green;
 }
