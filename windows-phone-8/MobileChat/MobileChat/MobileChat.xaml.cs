@@ -79,15 +79,11 @@ namespace MobileChat
 
         private void addMessageToChatBox(string message)
         {
-            //"There is a 2048 pixel height limitation for a UI control."
-            //http://social.msdn.microsoft.com/Forums/wpapps/en-US/3af9bc99-2526-49fc-b4a5-4170e12d11ab/do-textblocks-have-a-max-line-limit-if-so-how-do-i-increase-it?forum=wpdevelop
-            //For now we just empty it if it's above this limit.
-            if (_tbChatbox.Height >= 2000)
-            {
-                _tbChatbox.Text = "";
-            }
             //Add message to chat box.
-            _tbChatbox.Text = _tbChatbox.Text + message + "\n";
+            TextBlock tbNewChat = new TextBlock();
+            tbNewChat.TextWrapping = TextWrapping.Wrap;
+            tbNewChat.Text = message;
+            _svChatbox.Children.Add(tbNewChat);
             _svChatboxHolder.ScrollToVerticalOffset(_svChatboxHolder.ExtentHeight);
         }
 
