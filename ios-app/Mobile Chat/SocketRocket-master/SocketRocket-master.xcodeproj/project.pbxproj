@@ -1,0 +1,245 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F57D7092180AB78F009A0728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F57D7086180AB78F009A0728 /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B2082D1450F597009315AF;
+			remoteInfo = SocketRocket;
+		};
+		F57D7094180AB78F009A0728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F57D7086180AB78F009A0728 /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F668C880153E91210044DBAC;
+			remoteInfo = SocketRocketOSX;
+		};
+		F57D7096180AB78F009A0728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F57D7086180AB78F009A0728 /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6BDA802145900D200FE3253;
+			remoteInfo = SRWebSocketTests;
+		};
+		F57D7098180AB78F009A0728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F57D7086180AB78F009A0728 /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F62417E314D52F3C003CE997;
+			remoteInfo = TestChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F57D707B180AB78F009A0728 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		F57D707C180AB78F009A0728 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F57D707D180AB78F009A0728 /* .gitmodules */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
+		F57D707E180AB78F009A0728 /* .svn */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .svn; sourceTree = "<group>"; };
+		F57D707F180AB78F009A0728 /* extern */ = {isa = PBXFileReference; lastKnownFileType = folder; path = extern; sourceTree = "<group>"; };
+		F57D7080180AB78F009A0728 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F57D7081180AB78F009A0728 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		F57D7082180AB78F009A0728 /* pages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pages; sourceTree = "<group>"; };
+		F57D7083180AB78F009A0728 /* README.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.rst; sourceTree = "<group>"; };
+		F57D7084180AB78F009A0728 /* SocketRocket */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SocketRocket; sourceTree = "<group>"; };
+		F57D7085180AB78F009A0728 /* SocketRocket.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SocketRocket.podspec; sourceTree = "<group>"; };
+		F57D7086180AB78F009A0728 /* SocketRocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SocketRocket.xcodeproj; sourceTree = "<group>"; };
+		F57D7089180AB78F009A0728 /* SocketRocketOSX */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SocketRocketOSX; sourceTree = "<group>"; };
+		F57D708A180AB78F009A0728 /* SRWebSocketTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SRWebSocketTests; sourceTree = "<group>"; };
+		F57D708B180AB78F009A0728 /* TestChat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestChat; sourceTree = "<group>"; };
+		F57D708C180AB78F009A0728 /* TestChatServer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestChatServer; sourceTree = "<group>"; };
+		F57D708D180AB78F009A0728 /* TestSupport */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestSupport; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		F57D7075180AB78F009A0728 = {
+			isa = PBXGroup;
+			children = (
+				F57D707B180AB78F009A0728 /* .DS_Store */,
+				F57D707C180AB78F009A0728 /* .gitignore */,
+				F57D707D180AB78F009A0728 /* .gitmodules */,
+				F57D707E180AB78F009A0728 /* .svn */,
+				F57D707F180AB78F009A0728 /* extern */,
+				F57D7080180AB78F009A0728 /* LICENSE */,
+				F57D7081180AB78F009A0728 /* Makefile */,
+				F57D7082180AB78F009A0728 /* pages */,
+				F57D7083180AB78F009A0728 /* README.rst */,
+				F57D7084180AB78F009A0728 /* SocketRocket */,
+				F57D7085180AB78F009A0728 /* SocketRocket.podspec */,
+				F57D7086180AB78F009A0728 /* SocketRocket.xcodeproj */,
+				F57D7089180AB78F009A0728 /* SocketRocketOSX */,
+				F57D708A180AB78F009A0728 /* SRWebSocketTests */,
+				F57D708B180AB78F009A0728 /* TestChat */,
+				F57D708C180AB78F009A0728 /* TestChatServer */,
+				F57D708D180AB78F009A0728 /* TestSupport */,
+			);
+			sourceTree = "<group>";
+		};
+		F57D7087180AB78F009A0728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F57D7093180AB78F009A0728 /* libSocketRocket.a */,
+				F57D7095180AB78F009A0728 /* SocketRocket.framework */,
+				F57D7097180AB78F009A0728 /* SRWebSocketTests.octest */,
+				F57D7099180AB78F009A0728 /* TestChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		F57D707A180AB78F009A0728 /* SocketRocket-master */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = F57D709A180AB78F009A0728 /* Build configuration list for PBXLegacyTarget "SocketRocket-master" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/fhict/Desktop/MarcoEnTerry/SocketRocket-master";
+			dependencies = (
+			);
+			name = "SocketRocket-master";
+			passBuildSettingsInEnvironment = 1;
+			productName = "SocketRocket-master";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		F57D7076180AB78F009A0728 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F57D7079180AB78F009A0728 /* Build configuration list for PBXProject "SocketRocket-master" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F57D7075180AB78F009A0728;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F57D7087180AB78F009A0728 /* Products */;
+					ProjectRef = F57D7086180AB78F009A0728 /* SocketRocket.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F57D707A180AB78F009A0728 /* SocketRocket-master */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F57D7093180AB78F009A0728 /* libSocketRocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSocketRocket.a;
+			remoteRef = F57D7092180AB78F009A0728 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F57D7095180AB78F009A0728 /* SocketRocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SocketRocket.framework;
+			remoteRef = F57D7094180AB78F009A0728 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F57D7097180AB78F009A0728 /* SRWebSocketTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SRWebSocketTests.octest;
+			remoteRef = F57D7096180AB78F009A0728 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F57D7099180AB78F009A0728 /* TestChat.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TestChat.app;
+			remoteRef = F57D7098180AB78F009A0728 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		F57D7077180AB78F009A0728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		F57D7078180AB78F009A0728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		F57D709B180AB78F009A0728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "SocketRocket-master";
+			};
+			name = Debug;
+		};
+		F57D709C180AB78F009A0728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "SocketRocket-master";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F57D7079180AB78F009A0728 /* Build configuration list for PBXProject "SocketRocket-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57D7077180AB78F009A0728 /* Debug */,
+				F57D7078180AB78F009A0728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F57D709A180AB78F009A0728 /* Build configuration list for PBXLegacyTarget "SocketRocket-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57D709B180AB78F009A0728 /* Debug */,
+				F57D709C180AB78F009A0728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F57D7076180AB78F009A0728 /* Project object */;
+}

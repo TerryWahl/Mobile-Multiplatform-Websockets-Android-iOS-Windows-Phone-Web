@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Offline" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wG-kW-5XR">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="136" id="LSv-x1-Azj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V91-8x-XG2">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="JWU-Mq-2mS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Send">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSend:" destination="2" eventType="touchUpInside" id="VXn-MD-KKy"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type your message..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="48K-ZH-Z0O">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rO5-af-G4O">
+                                <color key="backgroundColor" red="0.9960784912109375" green="0.99215692281723022" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="textColor" red="0.031372550874948502" green="0.0039215688593685627" blue="0.0039215688593685627" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fill in name..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zKW-MN-CM7">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zKW-MN-CM7" firstAttribute="top" secondItem="3wG-kW-5XR" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="1hL-8E-gYV"/>
+                            <constraint firstItem="3wG-kW-5XR" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="3ea-EX-drB"/>
+                            <constraint firstAttribute="trailing" secondItem="rO5-af-G4O" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="6qe-DJ-J15"/>
+                            <constraint firstItem="3wG-kW-5XR" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="AUx-Nq-heu"/>
+                            <constraint firstItem="zKW-MN-CM7" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="G3D-vW-ONe"/>
+                            <constraint firstItem="48K-ZH-Z0O" firstAttribute="baseline" secondItem="V91-8x-XG2" secondAttribute="baseline" type="user" id="NRu-oq-YA3"/>
+                            <constraint firstItem="rO5-af-G4O" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="NWZ-9J-OBg"/>
+                            <constraint firstItem="V91-8x-XG2" firstAttribute="leading" secondItem="48K-ZH-Z0O" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="dO9-Bo-yO4"/>
+                            <constraint firstAttribute="trailing" secondItem="zKW-MN-CM7" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="dzp-m9-0iD"/>
+                            <constraint firstAttribute="bottom" secondItem="V91-8x-XG2" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="gXg-Pb-7qB"/>
+                            <constraint firstAttribute="trailing" secondItem="V91-8x-XG2" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="hV1-RL-VIU"/>
+                            <constraint firstItem="48K-ZH-Z0O" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="lwt-QV-kyg"/>
+                            <constraint firstItem="V91-8x-XG2" firstAttribute="top" secondItem="rO5-af-G4O" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="rM4-Fy-hbG"/>
+                            <constraint firstItem="rO5-af-G4O" firstAttribute="top" secondItem="zKW-MN-CM7" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="x02-gg-yff"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="tfInput" destination="48K-ZH-Z0O" id="bHK-EO-ukp"/>
+                        <outlet property="tfName" destination="zKW-MN-CM7" id="Agj-az-rt8"/>
+                        <outlet property="tfOutput" destination="rO5-af-G4O" id="ssx-bm-NhI"/>
+                        <outlet property="tvStatus" destination="3wG-kW-5XR" id="Qdx-Me-sV8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="btnSend:"/>
+                <relationship kind="outlet" name="tfInput" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="tfName" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="tfOutput" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="tvStatus" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
