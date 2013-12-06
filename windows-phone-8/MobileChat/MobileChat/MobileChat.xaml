@@ -1,4 +1,25 @@
-﻿<phone:PhoneApplicationPage
+﻿<!--
+Mobile Chat (ff-mobile-chat) is a cross platform
+(Android, iOS, Windows Phone 8, web) chat supported by NodeJS websockets.
+<https://github.com/TerryWahl/ff-mobile-chat>
+
+Copyright (C) 2013-2014 Terry Wahl & Marco Jacobs
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+    
+    <phone:PhoneApplicationPage
     x:Class="MobileChat.MobileChat"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -27,12 +48,12 @@
 
         <!--ContentPanel contains additional content-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0" Height="696">
-            <TextBox x:Name="tbxName" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" RenderTransformOrigin="2.527,0.576" Width="456"/>
-            <ScrollViewer Name="_scrollViewer" Margin="0,72,0,87">
-                <TextBlock x:Name="tbChat" TextWrapping="Wrap"/>
+            <TextBox x:Name="_tbxName" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" RenderTransformOrigin="2.527,0.576" Width="456"/>
+            <ScrollViewer Name="_svChatboxHolder" Margin="0,72,0,87">
+                <TextBlock x:Name="_tbChatbox" TextWrapping="Wrap"/>
             </ScrollViewer>
-            <TextBox x:Name="tbxMessage" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="2.527,0.576" Margin="10,614,100,0"/>
-            <Button x:Name="btSend" Content="Send" HorizontalAlignment="Left" Margin="356,614,-2,0" VerticalAlignment="Top" RenderTransformOrigin="0.702,0.867" Click="btSend_Click"/>
+            <TextBox x:Name="_tbxMessage" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="2.527,0.576" Margin="10,614,100,0"/>
+            <Button x:Name="_btSend" Content="Send" HorizontalAlignment="Left" Margin="356,614,-2,0" VerticalAlignment="Top" RenderTransformOrigin="0.702,0.867" Click="btSend_Click"/>
         </Grid>
     </Grid>
 
