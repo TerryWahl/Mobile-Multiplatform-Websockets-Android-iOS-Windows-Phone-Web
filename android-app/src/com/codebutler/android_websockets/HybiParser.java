@@ -28,7 +28,7 @@
 // OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-package nl.meta.mobile.chat;
+package com.codebutler.android_websockets;
 
 import android.util.Log;
 

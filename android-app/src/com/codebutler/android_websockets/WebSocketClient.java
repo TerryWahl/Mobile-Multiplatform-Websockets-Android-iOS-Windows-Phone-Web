@@ -1,4 +1,4 @@
-package nl.meta.mobile.chat;
+package com.codebutler.android_websockets;
 
 import android.os.Handler;
 import android.os.HandlerThread;
