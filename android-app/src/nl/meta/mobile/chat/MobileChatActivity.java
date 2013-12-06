@@ -17,7 +17,7 @@ GNU Affero General Public License for more details.
 
 You should have received a copy of the GNU Affero General Public License
 along with this program. If not, see <http://www.gnu.org/licenses/>.
-*/
+ */
 
 package nl.meta.mobile.chat;
 
@@ -49,7 +49,9 @@ public class MobileChatActivity extends Activity {
 	private LinearLayout llMessages;
 	private Button btnSend;
 
-	private final String CONSTANT_WEBSOCKETS_URL = "ws://priv.twdev.nl:6975/mobilechat/websocket";
+	// This library requires a raw websocket url.
+	// For NodeJS with SockJS this should be "ws://YOUR.URL:PORT/IDENTIFIER/websocket"
+	private final String CONSTANT_WEBSOCKETS_URL = "ws://your.site.nl:6975/mobilechat/websocket";
 	private final String CONSTANT_NO_NAME_ERROR_MSG = "Please put you name in box above!";
 
 	private WebSocketClient mClient;
@@ -88,7 +90,7 @@ public class MobileChatActivity extends Activity {
 							etMessage.setText("");
 						}
 					} else {
-						//Name is empty
+						// Name is empty
 						addMessageToChat(CONSTANT_NO_NAME_ERROR_MSG);
 					}
 				}
@@ -166,7 +168,7 @@ public class MobileChatActivity extends Activity {
 		TextView tv = new TextView(this);
 		tv.setText(message);
 		llMessages.addView(tv);
-		//Scroll to the end
+		// Scroll to the end
 		svMessages.fullScroll(View.FOCUS_DOWN);
 	}
 }
