@@ -50,7 +50,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0" Height="696">
             <TextBox x:Name="_tbxName" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" RenderTransformOrigin="2.527,0.576" Width="456"/>
             <ScrollViewer Name="_svChatboxHolder" Margin="0,72,0,87">
-                <TextBlock x:Name="_tbChatbox" TextWrapping="Wrap"/>
+                <StackPanel Name="_svChatbox"/>
             </ScrollViewer>
             <TextBox x:Name="_tbxMessage" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="2.527,0.576" Margin="10,614,100,0"/>
             <Button x:Name="_btSend" Content="Send" HorizontalAlignment="Left" Margin="356,614,-2,0" VerticalAlignment="Top" RenderTransformOrigin="0.702,0.867" Click="btSend_Click"/>
