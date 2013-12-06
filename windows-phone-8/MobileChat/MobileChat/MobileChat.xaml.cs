@@ -39,7 +39,7 @@ namespace MobileChat
     {
         //This library requires a raw websocket url.
         //For NodeJS with SockJS this should be "ws://YOUR.URL:PORT/IDENTIFIER/websocket"
-        private readonly String webSocketLink = "ws://priv.twdev.nl:6975/mobilechat/websocket";
+        private readonly String webSocketLink = "ws://your.site:6975/mobilechat/websocket";
 
         private WebSocket websocket;
         private bool socketOpen = false;
@@ -79,6 +79,13 @@ namespace MobileChat
 
         private void addMessageToChatBox(string message)
         {
+            //"There is a 2048 pixel height limitation for a UI control."
+            //http://social.msdn.microsoft.com/Forums/wpapps/en-US/3af9bc99-2526-49fc-b4a5-4170e12d11ab/do-textblocks-have-a-max-line-limit-if-so-how-do-i-increase-it?forum=wpdevelop
+            //For now we just empty it if it's above this limit.
+            if (_tbChatbox.Height >= 2000)
+            {
+                _tbChatbox.Text = "";
+            }
             //Add message to chat box.
             _tbChatbox.Text = _tbChatbox.Text + message + "\n";
             _svChatboxHolder.ScrollToVerticalOffset(_svChatboxHolder.ExtentHeight);
