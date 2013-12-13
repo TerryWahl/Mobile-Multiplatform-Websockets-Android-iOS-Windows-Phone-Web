@@ -52,7 +52,7 @@ public class MobileChatActivity extends Activity {
 	// This library requires a raw websocket url.
 	// For NodeJS with SockJS this should be
 	// "ws://YOUR.URL:PORT/IDENTIFIER/websocket"
-	private final String CONSTANT_WEBSOCKETS_URL = "ws://priv.twdev.nl:6975/mobilechat/websocket";
+	private final String CONSTANT_WEBSOCKETS_URL = "ws://your.site.nl:6975/mobilechat/websocket";
 	private final String CONSTANT_NO_NAME_ERROR_MSG = "Please put you name in box above!";
 
 	private WebSocketClient mClient;
