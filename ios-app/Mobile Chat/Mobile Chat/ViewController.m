@@ -41,8 +41,9 @@
 {
     //Startup websockets
     self.socketReady = NO;
-    //fill in URL
-    self.sockjsSocket = [[SRWebSocket alloc] initWithURL:[[NSURL alloc] initWithString:@""]];
+    //This library requires a raw websocket url. It does accept http instead of ws.
+    //For NodeJS with SockJS this should be "http://YOUR.URL:PORT/IDENTIFIER/websocket"
+    self.sockjsSocket = [[SRWebSocket alloc] initWithURL:[[NSURL alloc] initWithString:@"http://your.site:6975/mobilechat/websocket"]];
     self.sockjsSocket.delegate = self;
     [self.sockjsSocket open];
 
