@@ -50,8 +50,9 @@ public class MobileChatActivity extends Activity {
 	private Button btnSend;
 
 	// This library requires a raw websocket url.
-	// For NodeJS with SockJS this should be "ws://YOUR.URL:PORT/IDENTIFIER/websocket"
-	private final String CONSTANT_WEBSOCKETS_URL = "ws://your.site.nl:6975/mobilechat/websocket";
+	// For NodeJS with SockJS this should be
+	// "ws://YOUR.URL:PORT/IDENTIFIER/websocket"
+	private final String CONSTANT_WEBSOCKETS_URL = "ws://priv.twdev.nl:6975/mobilechat/websocket";
 	private final String CONSTANT_NO_NAME_ERROR_MSG = "Please put you name in box above!";
 
 	private WebSocketClient mClient;
@@ -109,7 +110,8 @@ public class MobileChatActivity extends Activity {
 
 			@Override
 			public void onMessage(String message) {
-				// Process message - Handler required because it's on the UI thread.
+				// Process message - Handler required because it's on the UI
+				// thread.
 				final String messageForHandler = message;
 				mHandler.post(new Runnable() {
 					@Override
@@ -130,14 +132,25 @@ public class MobileChatActivity extends Activity {
 			public void onDisconnect(int code, String reason) {
 				connected = false;
 				// This is already on a handler
-				setConnectionLabel();
+				mHandler.post(new Runnable() {
+					@Override
+					public void run() {
+						setConnectionLabel();
+					}
+				});
+
 			}
 
 			@Override
 			public void onConnect() {
 				connected = true;
 				// This is already on a handler
-				setConnectionLabel();
+				mHandler.post(new Runnable() {
+					@Override
+					public void run() {
+						setConnectionLabel();
+					}
+				});
 			}
 		}, extraHeaders);
 
@@ -146,7 +159,8 @@ public class MobileChatActivity extends Activity {
 	}
 
 	/**
-	 * Depending on the connection status this method will set the tvConnectStatus
+	 * Depending on the connection status this method will set the
+	 * tvConnectStatus
 	 */
 	private void setConnectionLabel() {
 		if (connected) {
