@@ -21,35 +21,11 @@
 		F5E36C0F1851FB140014401D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E36C0E1851FB140014401D /* ViewController.m */; };
 		F5E36C601851FB260014401D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C161851FB250014401D /* .gitignore */; };
 		F5E36C611851FB260014401D /* .gitmodules in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C171851FB250014401D /* .gitmodules */; };
-		F5E36C621851FB260014401D /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C1A1851FB250014401D /* LICENSE.txt */; };
-		F5E36C631851FB260014401D /* virtualenv.py in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C1B1851FB250014401D /* virtualenv.py */; };
 		F5E36C641851FB260014401D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C1C1851FB250014401D /* LICENSE */; };
-		F5E36C651851FB260014401D /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = F5E36C1D1851FB250014401D /* Makefile */; };
 		F5E36C661851FB260014401D /* README.rst in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C1F1851FB250014401D /* README.rst */; };
 		F5E36C671851FB260014401D /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = F5E36C211851FB250014401D /* base64.c */; };
 		F5E36C681851FB260014401D /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E36C241851FB250014401D /* NSData+SRB64Additions.m */; };
 		F5E36C691851FB260014401D /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E36C271851FB250014401D /* SRWebSocket.m */; };
-		F5E36C6A1851FB260014401D /* SocketRocket.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C2C1851FB260014401D /* SocketRocket.podspec */; };
-		F5E36C6B1851FB260014401D /* SocketRocketOSX-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C311851FB260014401D /* SocketRocketOSX-Info.plist */; };
-		F5E36C721851FB260014401D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C3E1851FB260014401D /* Default-568h@2x.png */; };
-		F5E36C731851FB260014401D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C401851FB260014401D /* InfoPlist.strings */; };
-		F5E36C741851FB260014401D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C421851FB260014401D /* MainStoryboard.storyboard */; };
-		F5E36C761851FB260014401D /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E36C461851FB260014401D /* TCAppDelegate.m */; };
-		F5E36C771851FB260014401D /* TCChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E36C481851FB260014401D /* TCChatCell.m */; };
-		F5E36C781851FB260014401D /* TCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E36C4A1851FB260014401D /* TCViewController.m */; };
-		F5E36C791851FB260014401D /* TestChat-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C4B1851FB260014401D /* TestChat-Info.plist */; };
-		F5E36C7A1851FB260014401D /* chatroom.go in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C4F1851FB260014401D /* chatroom.go */; };
-		F5E36C7B1851FB260014401D /* README in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C501851FB260014401D /* README */; };
-		F5E36C7C1851FB260014401D /* chatroom.py in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C521851FB260014401D /* chatroom.py */; };
-		F5E36C7D1851FB260014401D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C541851FB260014401D /* .gitignore */; };
-		F5E36C7E1851FB260014401D /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C551851FB260014401D /* index.html */; };
-		F5E36C7F1851FB260014401D /* proxy.js in Sources */ = {isa = PBXBuildFile; fileRef = F5E36C561851FB260014401D /* proxy.js */; };
-		F5E36C801851FB260014401D /* ensure_virtualenv.sh in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C581851FB260014401D /* ensure_virtualenv.sh */; };
-		F5E36C811851FB260014401D /* run_test.sh in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C591851FB260014401D /* run_test.sh */; };
-		F5E36C821851FB260014401D /* setup.cfg in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C5B1851FB260014401D /* setup.cfg */; };
-		F5E36C831851FB260014401D /* setup.py in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C5C1851FB260014401D /* setup.py */; };
-		F5E36C841851FB260014401D /* __init__.py in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C5E1851FB260014401D /* __init__.py */; };
-		F5E36C851851FB260014401D /* runner.py in Resources */ = {isa = PBXBuildFile; fileRef = F5E36C5F1851FB260014401D /* runner.py */; };
 		F5E36C941851FB6F0014401D /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E36C931851FB6F0014401D /* libicucore.dylib */; };
 		F5E36C961851FB790014401D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E36C951851FB790014401D /* CFNetwork.framework */; };
 		F5E36C981851FB810014401D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E36C971851FB810014401D /* Security.framework */; };
@@ -106,10 +82,7 @@
 		F5E36C0E1851FB140014401D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F5E36C161851FB250014401D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F5E36C171851FB250014401D /* .gitmodules */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
-		F5E36C1A1851FB250014401D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		F5E36C1B1851FB250014401D /* virtualenv.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = virtualenv.py; sourceTree = "<group>"; };
 		F5E36C1C1851FB250014401D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		F5E36C1D1851FB250014401D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		F5E36C1F1851FB250014401D /* README.rst */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.rst; sourceTree = "<group>"; };
 		F5E36C211851FB250014401D /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
 		F5E36C221851FB250014401D /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
@@ -118,34 +91,7 @@
 		F5E36C251851FB250014401D /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
 		F5E36C261851FB250014401D /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
 		F5E36C271851FB250014401D /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
-		F5E36C281851FB250014401D /* SocketRocket-master.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "SocketRocket-master.xcodeproj"; sourceTree = "<group>"; };
-		F5E36C2C1851FB260014401D /* SocketRocket.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SocketRocket.podspec; sourceTree = "<group>"; };
 		F5E36C2D1851FB260014401D /* SocketRocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SocketRocket.xcodeproj; sourceTree = "<group>"; };
-		F5E36C311851FB260014401D /* SocketRocketOSX-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SocketRocketOSX-Info.plist"; sourceTree = "<group>"; };
-		F5E36C3F1851FB260014401D /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/Default-568h@2x.png"; sourceTree = "<group>"; };
-		F5E36C411851FB260014401D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F5E36C431851FB260014401D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F5E36C441851FB260014401D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F5E36C451851FB260014401D /* TCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
-		F5E36C461851FB260014401D /* TCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
-		F5E36C471851FB260014401D /* TCChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCChatCell.h; sourceTree = "<group>"; };
-		F5E36C481851FB260014401D /* TCChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCChatCell.m; sourceTree = "<group>"; };
-		F5E36C491851FB260014401D /* TCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCViewController.h; sourceTree = "<group>"; };
-		F5E36C4A1851FB260014401D /* TCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCViewController.m; sourceTree = "<group>"; };
-		F5E36C4B1851FB260014401D /* TestChat-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TestChat-Info.plist"; sourceTree = "<group>"; };
-		F5E36C4C1851FB260014401D /* TestChat-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestChat-Prefix.pch"; sourceTree = "<group>"; };
-		F5E36C4F1851FB260014401D /* chatroom.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chatroom.go; sourceTree = "<group>"; };
-		F5E36C501851FB260014401D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		F5E36C521851FB260014401D /* chatroom.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = chatroom.py; sourceTree = "<group>"; };
-		F5E36C541851FB260014401D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		F5E36C551851FB260014401D /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		F5E36C561851FB260014401D /* proxy.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = proxy.js; sourceTree = "<group>"; };
-		F5E36C581851FB260014401D /* ensure_virtualenv.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ensure_virtualenv.sh; sourceTree = "<group>"; };
-		F5E36C591851FB260014401D /* run_test.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = run_test.sh; sourceTree = "<group>"; };
-		F5E36C5B1851FB260014401D /* setup.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = setup.cfg; sourceTree = "<group>"; };
-		F5E36C5C1851FB260014401D /* setup.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = setup.py; sourceTree = "<group>"; };
-		F5E36C5E1851FB260014401D /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
-		F5E36C5F1851FB260014401D /* runner.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = runner.py; sourceTree = "<group>"; };
 		F5E36C931851FB6F0014401D /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		F5E36C951851FB790014401D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		F5E36C971851FB810014401D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -234,45 +180,12 @@
 			children = (
 				F5E36C161851FB250014401D /* .gitignore */,
 				F5E36C171851FB250014401D /* .gitmodules */,
-				F5E36C181851FB250014401D /* extern */,
 				F5E36C1C1851FB250014401D /* LICENSE */,
-				F5E36C1D1851FB250014401D /* Makefile */,
-				F5E36C1E1851FB250014401D /* pages */,
 				F5E36C1F1851FB250014401D /* README.rst */,
 				F5E36C201851FB250014401D /* SocketRocket */,
-				F5E36C281851FB250014401D /* SocketRocket-master.xcodeproj */,
-				F5E36C2C1851FB260014401D /* SocketRocket.podspec */,
 				F5E36C2D1851FB260014401D /* SocketRocket.xcodeproj */,
-				F5E36C301851FB260014401D /* SocketRocketOSX */,
-				F5E36C3D1851FB260014401D /* TestChat */,
-				F5E36C4D1851FB260014401D /* TestChatServer */,
-				F5E36C571851FB260014401D /* TestSupport */,
 			);
 			path = "SocketRocket-master";
-			sourceTree = "<group>";
-		};
-		F5E36C181851FB250014401D /* extern */ = {
-			isa = PBXGroup;
-			children = (
-				F5E36C191851FB250014401D /* virtualenv */,
-			);
-			path = extern;
-			sourceTree = "<group>";
-		};
-		F5E36C191851FB250014401D /* virtualenv */ = {
-			isa = PBXGroup;
-			children = (
-				F5E36C1A1851FB250014401D /* LICENSE.txt */,
-				F5E36C1B1851FB250014401D /* virtualenv.py */,
-			);
-			path = virtualenv;
-			sourceTree = "<group>";
-		};
-		F5E36C1E1851FB250014401D /* pages */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = pages;
 			sourceTree = "<group>";
 		};
 		F5E36C201851FB250014401D /* SocketRocket */ = {
@@ -289,13 +202,6 @@
 			path = SocketRocket;
 			sourceTree = "<group>";
 		};
-		F5E36C291851FB250014401D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		F5E36C2E1851FB260014401D /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,99 +211,6 @@
 				F5E36C921851FB260014401D /* TestChat.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F5E36C301851FB260014401D /* SocketRocketOSX */ = {
-			isa = PBXGroup;
-			children = (
-				F5E36C311851FB260014401D /* SocketRocketOSX-Info.plist */,
-			);
-			path = SocketRocketOSX;
-			sourceTree = "<group>";
-		};
-		F5E36C3D1851FB260014401D /* TestChat */ = {
-			isa = PBXGroup;
-			children = (
-				F5E36C3E1851FB260014401D /* Default-568h@2x.png */,
-				F5E36C401851FB260014401D /* InfoPlist.strings */,
-				F5E36C421851FB260014401D /* MainStoryboard.storyboard */,
-				F5E36C441851FB260014401D /* main.m */,
-				F5E36C451851FB260014401D /* TCAppDelegate.h */,
-				F5E36C461851FB260014401D /* TCAppDelegate.m */,
-				F5E36C471851FB260014401D /* TCChatCell.h */,
-				F5E36C481851FB260014401D /* TCChatCell.m */,
-				F5E36C491851FB260014401D /* TCViewController.h */,
-				F5E36C4A1851FB260014401D /* TCViewController.m */,
-				F5E36C4B1851FB260014401D /* TestChat-Info.plist */,
-				F5E36C4C1851FB260014401D /* TestChat-Prefix.pch */,
-			);
-			path = TestChat;
-			sourceTree = "<group>";
-		};
-		F5E36C4D1851FB260014401D /* TestChatServer */ = {
-			isa = PBXGroup;
-			children = (
-				F5E36C4E1851FB260014401D /* go */,
-				F5E36C511851FB260014401D /* py */,
-				F5E36C531851FB260014401D /* static */,
-			);
-			path = TestChatServer;
-			sourceTree = "<group>";
-		};
-		F5E36C4E1851FB260014401D /* go */ = {
-			isa = PBXGroup;
-			children = (
-				F5E36C4F1851FB260014401D /* chatroom.go */,
-				F5E36C501851FB260014401D /* README */,
-			);
-			path = go;
-			sourceTree = "<group>";
-		};
-		F5E36C511851FB260014401D /* py */ = {
-			isa = PBXGroup;
-			children = (
-				F5E36C521851FB260014401D /* chatroom.py */,
-			);
-			path = py;
-			sourceTree = "<group>";
-		};
-		F5E36C531851FB260014401D /* static */ = {
-			isa = PBXGroup;
-			children = (
-				F5E36C541851FB260014401D /* .gitignore */,
-				F5E36C551851FB260014401D /* index.html */,
-				F5E36C561851FB260014401D /* proxy.js */,
-			);
-			path = static;
-			sourceTree = "<group>";
-		};
-		F5E36C571851FB260014401D /* TestSupport */ = {
-			isa = PBXGroup;
-			children = (
-				F5E36C581851FB260014401D /* ensure_virtualenv.sh */,
-				F5E36C591851FB260014401D /* run_test.sh */,
-				F5E36C5A1851FB260014401D /* sr-testharness */,
-			);
-			path = TestSupport;
-			sourceTree = "<group>";
-		};
-		F5E36C5A1851FB260014401D /* sr-testharness */ = {
-			isa = PBXGroup;
-			children = (
-				F5E36C5B1851FB260014401D /* setup.cfg */,
-				F5E36C5C1851FB260014401D /* setup.py */,
-				F5E36C5D1851FB260014401D /* srtestharness */,
-			);
-			path = "sr-testharness";
-			sourceTree = "<group>";
-		};
-		F5E36C5D1851FB260014401D /* srtestharness */ = {
-			isa = PBXGroup;
-			children = (
-				F5E36C5E1851FB260014401D /* __init__.py */,
-				F5E36C5F1851FB260014401D /* runner.py */,
-			);
-			path = srtestharness;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -440,10 +253,6 @@
 			productRefGroup = F5E36BED1851FB140014401D /* Products */;
 			projectDirPath = "";
 			projectReferences = (
-				{
-					ProductGroup = F5E36C291851FB250014401D /* Products */;
-					ProjectRef = F5E36C281851FB250014401D /* SocketRocket-master.xcodeproj */;
-				},
 				{
 					ProductGroup = F5E36C2E1851FB260014401D /* Products */;
 					ProjectRef = F5E36C2D1851FB260014401D /* SocketRocket.xcodeproj */;
@@ -500,27 +309,8 @@
 				F5E36C0C1851FB140014401D /* MainStoryboard_iPad.storyboard in Resources */,
 				F5E36C601851FB260014401D /* .gitignore in Resources */,
 				F5E36C611851FB260014401D /* .gitmodules in Resources */,
-				F5E36C621851FB260014401D /* LICENSE.txt in Resources */,
-				F5E36C631851FB260014401D /* virtualenv.py in Resources */,
 				F5E36C641851FB260014401D /* LICENSE in Resources */,
 				F5E36C661851FB260014401D /* README.rst in Resources */,
-				F5E36C6A1851FB260014401D /* SocketRocket.podspec in Resources */,
-				F5E36C6B1851FB260014401D /* SocketRocketOSX-Info.plist in Resources */,
-				F5E36C721851FB260014401D /* Default-568h@2x.png in Resources */,
-				F5E36C731851FB260014401D /* InfoPlist.strings in Resources */,
-				F5E36C741851FB260014401D /* MainStoryboard.storyboard in Resources */,
-				F5E36C791851FB260014401D /* TestChat-Info.plist in Resources */,
-				F5E36C7A1851FB260014401D /* chatroom.go in Resources */,
-				F5E36C7B1851FB260014401D /* README in Resources */,
-				F5E36C7C1851FB260014401D /* chatroom.py in Resources */,
-				F5E36C7D1851FB260014401D /* .gitignore in Resources */,
-				F5E36C7E1851FB260014401D /* index.html in Resources */,
-				F5E36C801851FB260014401D /* ensure_virtualenv.sh in Resources */,
-				F5E36C811851FB260014401D /* run_test.sh in Resources */,
-				F5E36C821851FB260014401D /* setup.cfg in Resources */,
-				F5E36C831851FB260014401D /* setup.py in Resources */,
-				F5E36C841851FB260014401D /* __init__.py in Resources */,
-				F5E36C851851FB260014401D /* runner.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,14 +324,9 @@
 				F5E36BFC1851FB140014401D /* main.m in Sources */,
 				F5E36C001851FB140014401D /* AppDelegate.m in Sources */,
 				F5E36C0F1851FB140014401D /* ViewController.m in Sources */,
-				F5E36C651851FB260014401D /* Makefile in Sources */,
 				F5E36C671851FB260014401D /* base64.c in Sources */,
 				F5E36C681851FB260014401D /* NSData+SRB64Additions.m in Sources */,
 				F5E36C691851FB260014401D /* SRWebSocket.m in Sources */,
-				F5E36C761851FB260014401D /* TCAppDelegate.m in Sources */,
-				F5E36C771851FB260014401D /* TCChatCell.m in Sources */,
-				F5E36C781851FB260014401D /* TCViewController.m in Sources */,
-				F5E36C7F1851FB260014401D /* proxy.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,30 +355,6 @@
 				F5E36C0B1851FB140014401D /* en */,
 			);
 			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		F5E36C3E1851FB260014401D /* Default-568h@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5E36C3F1851FB260014401D /* en */,
-			);
-			name = "Default-568h@2x.png";
-			sourceTree = "<group>";
-		};
-		F5E36C401851FB260014401D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5E36C411851FB260014401D /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F5E36C421851FB260014401D /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5E36C431851FB260014401D /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -700,6 +461,7 @@
 				F5E36C141851FB140014401D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
